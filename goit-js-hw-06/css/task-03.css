@@ -1,0 +1,17 @@
+.img_gallery {
+    display: inline-block;
+    max-width: 300px;
+    list-style-type: none;
+    list-style: none;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}

@@ -16,7 +16,7 @@ const images = [
   },
 ];
 
-ulList.textContent = 'The most beautiful animals gallery '
+ulList.textContent = 'The most beautifull animals gallery :)'
 ulList.style.color = 'brown'
 ulList.style.paddingTop = '50px'
 ulList.style.fontSize = '30px'

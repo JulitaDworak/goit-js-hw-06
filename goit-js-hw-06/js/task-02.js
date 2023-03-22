@@ -9,20 +9,22 @@ const ingredients = [
 
 const ulList = document.querySelector('ul')
 
-// for( let i = 0; i < ingredients.length; i++) {
-//   const liList = document.createElement('li')
-//   liList.textContent = ingredients[i]
-//   ulList.appendChild(liList)
-// }
-// console.log(ingredients.length);
-// console.log(ulList);
+for( let i = 0; i < ingredients.length; i++) {
+  const liList = document.createElement('li')
+  liList.textContent = ingredients[i]
+  liList.classList.add('item')
+  ulList.appendChild(liList)
+}
+console.log(ingredients.length);
+console.log(ulList);
 
 
-const listOfProducts = ingredients
-.map((ingredient) => `<li class="item"> ${ingredient}</li>`)
-// .join="";
-// ulList.insertAdjacentHTML("afterbegin", listOfProducts)
-ulList.innerHTML = listOfProducts
+// ----------------------------------------
+// inny sposób/
+// const listOfProducts = ingredients
+// .map((ingredient) => `<li class="item"> ${ingredient}</li>`)
+
+// ulList.innerHTML = listOfProducts
 
 
-console.log(listOfProducts);
+// console.log(listOfProducts);
